@@ -27,7 +27,11 @@ def lire_sad(nomFichier: str) -> Sac_a_dos :
         """
 
         with open(nomFichier, 'r') as f:
-          nbrs = re.findall(r'\d+', f.read()) #Séquence d'échappement non prise
-          print(nbrs)
+            nbrs = re.findall(r'\d+', f.read()) #Séquence d'échappement non prise
+            N = int(nbrs[0])
+            w = int(nbrs[1])
+            sad = Sac_a_dos(N, w)
+
+            return sad
 
 sac = lire_sad('sad_4.txt')
