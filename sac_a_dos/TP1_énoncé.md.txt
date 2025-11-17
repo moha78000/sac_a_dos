@@ -1,0 +1,19 @@
+# Optimisation : TP1 : Optimisation par programmation dynamique
+
+## Sac à dos
+
+Vous trouvez dans l'archive fournie des instances du problème de Sac à dos, au format :
+
+    N W
+    v1 p1
+    v2 p2
+    ...
+    cN pN
+
+où N est le nombre d'objets, W la capacité totale, vi la valeur de l'objet i et pi son poids.
+
+On demande de résoudre les instances, en utilisant le langage de votre choix,
+
+1) Par algorithme glouton
+2) Par programmation dynamique
+3) Si vous avez terminé, essayez de faire une approche par recherche exhaustive (exploration de l'arbre des possibilités de choix) et comparez les temps de calcul.
